@@ -1,0 +1,85 @@
+header {
+    text-align: center;
+    background-color: #e5e5e5;
+    display: block;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    display: block;
+}
+
+h2{
+    display: block;
+    font-size: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 6px 9px 7px;
+    font-weight: bold;
+}
+
+h1,h2 {
+    background-color: #c4c4c4;
+    color: #005677;
+    font-style: normal;
+    letter-spacing: 3px;
+}
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    margin-top: 30px;
+}
+
+.datos_personales {
+    font-style: italic;
+}
+
+ul{
+    margin-left: 150px;
+}
+
+span {
+    font-weight: bold;
+}
+
+dl {
+    margin-left: 180px;
+    display: block;
+}
+
+dt {
+    display: block;
+}
+
+dd {
+    display: block;
+    margin-inline-start: 75px;
+}
+
+
+footer {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 24px;
+        color: white;
+        background-color: #005677;
+        height: 37px;
+        display: block;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+p{
+    display: block;
+}
