@@ -12,14 +12,39 @@ header {
     display: block;
 }
 
+
+#botonera {
+    height: 50px;
+    width: auto;
+}
+
+#botonera ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#botonera ul li{
+    display: inline;
+    float: right;
+    margin-top: 10px;
+}
+
+#botonera ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+}
+
 #banner {
     text-align: center;
     display: block;
     background-color: #e5e5e5;
-    background-image: url(../img/banner.jpeg);
+    background-image: url(../img/islaReunion.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 300x;
+    height: 600px;
     margin-top: auto;
     background-size: cover;
 }
@@ -29,8 +54,9 @@ h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
-    display: block;
+    display: inline-block;
     margin-bottom: 0px;
+    border: 2px solid #555;
 
 }
 
@@ -49,6 +75,19 @@ h1,h2 {
     letter-spacing: 3px;
 }
 
+#foto {
+    padding-top: 100px;
+}
+
+
+.fotocv {
+    height: 152px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 50px;
+	margin-left: 5px;
+    border: 2px solid #555;
+}
 
 
 body {
@@ -56,10 +95,6 @@ body {
     margin: 0%;
     font-family: 'Varela Round', sans-serif;
     background-color: #e5e5e5;
-}
-
-section {
-
 }
 
 .datos_personales {
@@ -107,16 +142,6 @@ p{
     display: block;
 }
 
-.fotocv {
-    height: 152px;
-	padding: 10px;
-	box-sizing: border-box;
-	margin-top: 50px;
-	margin-left: 5px;
-    border: 2px solid #555;
-}
-
-
 
 
 #redes {
@@ -142,27 +167,3 @@ p{
         text-align: center;
     
     }
-
-#botonera {
-    height: 50px;
-    width: 600px;
-}
-
-#botonera ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-#botonera ul li{
-    display: inline;
-    float: right;
-    margin-top: 10px;
-}
-
-#botonera ul li a {
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    padding: 10px 10px;
-    text-align: center;
-}
