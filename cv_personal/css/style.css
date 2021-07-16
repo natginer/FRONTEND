@@ -16,11 +16,12 @@ header {
     text-align: center;
     display: block;
     background-color: #e5e5e5;
-    background-image: url(../img/avion.jpeg);
+    background-image: url(../img/banner.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 300px;
+    height: 300x;
     margin-top: auto;
+    background-size: cover;
 }
 
 
@@ -29,6 +30,7 @@ h1 {
     font-weight: bold;
     font-size: 35px;
     display: block;
+    margin-bottom: 0px;
 
 }
 
@@ -37,6 +39,7 @@ h2{
     font-size: 20px;
     padding: 6px 9px 7px;
     font-weight: bold;
+    margin-top: 40px;
 }
 
 h1,h2 {
@@ -56,7 +59,7 @@ body {
 }
 
 section {
-    margin-top: 30px;
+
 }
 
 .datos_personales {
