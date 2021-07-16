@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+header, section, footer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header {
+    background-color: #659bb1;
+    height: 60px;
+    display: block;
+}
+
+#banner {
+    text-align: center;
+    display: block;
+    background-color: #e5e5e5;
+    background-image: url(../img/avion.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    margin-top: auto;
+}
+
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    display: block;
+
+}
+
+h2{
+    display: block;
+    font-size: 20px;
+    padding: 6px 9px 7px;
+    font-weight: bold;
+}
+
+h1,h2 {
+    background-color:  #659bb1;
+    color: #005677;
+    font-style: normal;
+    letter-spacing: 3px;
+}
+
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #e5e5e5;
+}
+
+section {
+    margin-top: 30px;
+}
+
+.datos_personales {
+    font-style: italic;
+}
+
+ul{
+    display: block;
+}
+
+span {
+    font-weight: bold;
+}
+
+dl {
+    display: block;
+}
+
+dt {
+    display: block;
+}
+
+dd {
+    display: block;
+    margin-inline-start: 0px;
+}
+
+
+footer {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 24px;
+        color: white;
+        background-color: #659bb1;
+        height: 60px;
+        display: block;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+p{
+    display: block;
+}
+
+.fotocv {
+    height: 152px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 50px;
+	margin-left: 5px;
+    border: 2px solid #555;
+}
+
+
+
+
+#redes {
+        height: 80px;
+        width: 600px;
+}
+#redes ul{
+        margin-top: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+#redes ul li{
+        display: inline;
+        float: right;
+    }
+    
+#redes ul li a{
+        display: inline-block;
+        text-decoration: none;
+        color: #000000;
+        padding: 20px 25px;
+        text-align: center;
+    
+    }
+
+#botonera {
+    height: 50px;
+    width: 600px;
+}
+
+#botonera ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#botonera ul li{
+    display: inline;
+    float: right;
+    margin-top: 10px;
+}
+
+#botonera ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+header {
+    background-color: #659bb1;
+    height: 60px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header, section, footer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+    font-family: arial, verdana, tahoma;
+}
+
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    display: block;
+    color:grey;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #e5e5e5;
+    padding: 0%;
+    margin: 0%;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#botonera {
+    height: 50px;
+    width: 600px;
+}
+
+#botonera ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#botonera ul li{
+    display: inline;
+    float: right;
+    margin-top: 20px;
+}
+
+#botonera ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+}
+
