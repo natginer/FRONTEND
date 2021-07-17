@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-header, section, footer {
+header, main, footer {
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Varela Round', sans-serif;
+    background-color:white;
+}
+
 header {
-    background-color: #659bb1;
+    background-color: #e5c2d4;
     height: 60px;
     display: block;
 }
@@ -32,7 +39,7 @@ header {
 #botonera ul li a {
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 10px 10px;
     text-align: center;
 }
@@ -41,38 +48,35 @@ header {
     text-align: center;
     display: block;
     background-color: #e5e5e5;
-    background-image: url(../img/islaReunion.jpeg);
+    background-image: url(../img/fondo.png.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 250px;
     margin-top: auto;
     background-size: cover;
+    margin-bottom: auto;
 }
 
 
 h1 {
-    font-style: normal;
-    font-weight: bold;
     font-size: 35px;
-    display: inline-block;
-    margin-bottom: 0px;
-    border: 2px solid #555;
-
+    margin-top: auto;
+    text-align: center;
 }
 
 h2{
-    display: block;
     font-size: 20px;
-    padding: 6px 9px 7px;
-    font-weight: bold;
     margin-top: 40px;
+    padding: 10px;
+    text-align: left;
 }
 
 h1,h2 {
-    background-color:  #659bb1;
-    color: #005677;
     font-style: normal;
     letter-spacing: 3px;
+    font-weight: bold;
+    background-color:  #e5c2d4;
+    color:white;
 }
 
 
@@ -80,17 +84,15 @@ h1,h2 {
     height: 152px;
 	padding: 10px;
 	box-sizing: border-box;
-	margin-top: 50px;
-	margin-left: 20px;
-    border: 2px solid #555;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    margin-top: 50px;
 }
 
 
-body {
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Varela Round', sans-serif;
-    background-color: #e5e5e5;
+.estructura {
+    text-align: left;
 }
 
 .datos_personales {
@@ -124,14 +126,13 @@ footer {
         margin-top: 30px;
         font-size: 24px;
         color: white;
-        background-color: #659bb1;
+        background-color: #e5c2d4;
         height: 60px;
         display: block;
 }
 
 a:-webkit-any-link {
     cursor: pointer;
-    text-decoration: none;
 }
 
 p{

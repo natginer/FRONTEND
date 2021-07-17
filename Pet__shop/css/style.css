@@ -1,0 +1,114 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header{
+    background-color: rgb(236, 181, 79);
+    text-decoration: none;
+}
+
+  .Portada{
+      display: inline-block;
+      text-align: left;
+  }
+  
+  h1 a {
+      text-decoration: none;
+      color: white;
+  }
+  h1 img {
+      width: 25px;
+  }
+  .H1Negrita {
+      color:black;
+      margin-right: -15px;
+  }
+
+  
+nav ul li{
+   display: inline;
+  }
+  
+nav ul li a{
+      text-decoration: none;
+      color: white;
+  }
+  
+
+#titulos {
+    text-align: right;
+    padding-top: 200px;
+}
+
+#titulos h2{
+    font-size: 20px;
+    padding right: px;
+}
+
+#titulos p{
+    padding: 40px;
+}
+
+#titulos button {
+    padding-right: 100px;
+    background-color: orange;
+    height: 40px;
+    width: 20px;
+}
+
+#titulos button a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.banner {
+    background-image: url("../img/foto.png");
+    background-color: wheat;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+}
+
+.ofertas {
+    color: white;
+    background-color: black;
+
+}
+.ofertas a {
+
+     margin-left: 30%;
+}
+
+.productos{
+    text-align: center;
+    display: block;
+}
+
+ul li {
+    text-decoration: none;
+    display: inline;
+  padding: 10px;
+}
+
+
+#redes {
+    height: 300px;
+    background-color: rgb(61, 36, 36);
+}
+
+#redes ul li a{
+    display: block;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    text-size-adjust: auto;
+}

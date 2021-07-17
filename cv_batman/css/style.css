@@ -4,20 +4,25 @@ header {
     display: block;
 }
 
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
 h1 {
-    font-style: normal;
-    font-weight: bold;
     font-size: 35px;
-    display: block;
+    text-transform: uppercase;
 }
 
 h2{
-    display: block;
     font-size: 20px;
     margin-left: 160px;
     margin-right: 160px;
-    padding: 6px 9px 7px;
-    font-weight: bold;
 }
 
 h1,h2 {
@@ -25,20 +30,22 @@ h1,h2 {
     color: #005677;
     font-style: normal;
     letter-spacing: 3px;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
 }
 
 
-body {
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Times New Roman', Times, serif;
+.estructura {
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 section {
     margin-top: 30px;
 }
 
-.datos_personales {
+.datos_personales span {
     font-style: italic;
 }
 
@@ -55,9 +62,6 @@ dl {
     display: block;
 }
 
-dt {
-    display: block;
-}
 
 dd {
     display: block;
@@ -73,13 +77,14 @@ footer {
         background-color: #005677;
         height: 37px;
         display: block;
+        letter-spacing: 5px;
+        text-transform: uppercase;
 }
 
 a:-webkit-any-link {
     cursor: pointer;
-    text-decoration: underline;
+    color: #e5e5e5;
 }
 
-p{
-    display: block;
-}
+
+

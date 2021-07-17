@@ -1,48 +1,25 @@
-header {
-    background-color: #659bb1;
-    height: 60px;
-    display: block;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-header, section, footer {
+header, main, footer {
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
     font-family: arial, verdana, tahoma;
 }
 
-
-h1 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    display: block;
-    color:grey;
-    font-style: normal;
-    letter-spacing: 3px;
-    text-align: left;
-    margin-left: 30px;
-    text-decoration: underline;
-}
-
 body {
-    background-color: #e5e5e5;
+    background-color:white;
     padding: 0%;
     margin: 0%;
 }
 
-p{
-    margin-left: 20px;
-    margin-right: 20px;
+header{ 
+    background-color:  #e5c2d4;
+    height: 60px;
+    display: block;
 }
 
 #botonera {
     height: 50px;
-    width: 600px;
+    width: auto;
 }
 
 #botonera ul{
@@ -58,8 +35,99 @@ p{
 
 #botonera ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 10px 10px;
     text-align: center;
 }
 
+
+
+
+#banner {
+    text-align: center;
+    display: block;
+    background-color: #e5e5e5;
+    background-image: url(../img/fondo.png.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    margin-top: auto;
+    background-size: cover;
+    margin-bottom: auto;
+}
+
+.fotocv {
+    height: 152px;
+	padding: 10px;
+	box-sizing: border-box;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    margin-top: 50px;
+}
+
+
+
+h1{
+        font-size: 35px;
+        background-color:  #e5c2d4;
+        color:white;
+        font-style: normal;
+        letter-spacing: 3px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin-top: 0px;
+    }
+
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: white;
+    background-color:  #e5c2d4;
+    height: 60px;
+    display: block;
+}
+
+a:-webkit-any-link {
+cursor: pointer;
+}
+
+p{
+display: block;
+}
+
+
+
+#redes {
+    height: 80px;
+    width: 600px;
+}
+#redes ul{
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#redes ul li{
+    display: inline;
+    float: right;
+}
+
+#redes ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    padding: 20px 25px;
+    text-align: center;
+
+}
