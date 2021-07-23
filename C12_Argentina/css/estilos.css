@@ -1,0 +1,190 @@
+/* Estilos Generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;300&display=swap');
+
+:root {
+    --color-principal: #062f5b;
+    --color-secundario: #679dd6;
+    --color-texto: #5d596b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300px;
+}
+ 
+ul {
+    list-style-type: none; 
+}
+
+img {
+    max-width: 100%; /*ocupa 100% de la imagen del padre. medida relativa, 
+    el ancho es relativo al padre*/
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 20px 10px;
+    display: inline-block;
+}  
+/* Header */
+header {
+    background-color: var(--color-principal);
+} 
+
+ 
+.bg-header {
+    background-image: url("../img/bg-header.jpg"), -webkit-linear-gradient(top, #cbe3ba, #a6cc8b);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff; 
+    height: 300px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-header h1 {
+    font-weight: 500px; 
+}
+
+/* Estilos section */
+ 
+ 
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Estilos cards */  
+
+/*.card-section > div{
+    display: flex; }*/
+
+.card-section {
+    max-width: 80%;
+    margin: 30px auto; /*30 afecta arriba y abajo, auto a los costados */
+}    
+
+
+.card-section-contendor {
+    display: flex;
+}
+  
+.card {
+    border-radius: 20px;
+    padding: 20px; 
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px #ccc;
+    margin: 20px 10px;
+    width:300px;
+}
+
+.card>h3 {
+    color: var(--color-secundario);
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+/* Estilos contacto*/  
+ 
+#contacto > div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    padding: 30px;
+}
+
+.contacto { 
+    text-align: right;
+}  
+.contacto > p {
+    line-height: 2;
+    color: var(--color-texto);
+} 
+.contacto>p>span {
+    font-weight: bold;
+}
+
+.contacto, .formulario {
+    width: 50%;
+}
+  
+form { 
+    color: #fff; 
+    background-color: var(--color-principal);
+    padding: 40px 40px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+input {
+    border-radius: 20px;
+    outline: none;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: var(--color-principal);
+    border: 2px solid #fff;
+    color: #fff;
+
+}
+
+/*footer*/
+footer {
+    background-color: var(--color-principal);  
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+footer ul, footer > div{
+    width: 50%;
+}
+
+footer h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    line-height: 2.5; 
+} 
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.news-letter {
+    position: relative;
+}
+
+.news-letter>input[type="text"] {
+    width: 100%;
+}
+
+.news-letter>input[type="submit"] {
+    position: absolute;
+    width: 100px;
+    right: 0;
+}
+ 
+ 

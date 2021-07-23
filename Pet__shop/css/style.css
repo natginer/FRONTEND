@@ -9,8 +9,14 @@ body{
     text-decoration: none;
 }
 
+.contenedor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
   .Portada{
-      display: inline-block;
+      display: flex;
       text-align: left;
   }
   
@@ -26,6 +32,14 @@ body{
       margin-right: -15px;
   }
 
+nav{
+    margin-left: 300px;
+}
+
+nav ul{
+    display: flex;
+}
+
   
 nav ul li{
    display: inline;
@@ -38,8 +52,12 @@ nav ul li a{
   
 
 #titulos {
-    text-align: right;
-    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    padding: 100px;
 }
 
 #titulos h2{
@@ -80,7 +98,6 @@ nav ul li a{
 
 }
 .ofertas a {
-
      margin-left: 30%;
 }
 
@@ -88,6 +105,9 @@ nav ul li a{
     text-align: center;
     display: block;
 }
+
+
+
 
 ul li {
     text-decoration: none;
@@ -112,3 +132,11 @@ footer {
     padding: 5px;
     text-size-adjust: auto;
 }
+
+.main-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
