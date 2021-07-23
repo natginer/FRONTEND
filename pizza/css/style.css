@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+}
+
+.tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.tittle img{
+    width: 50px;;
+}
+
+h1{
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.verde {
+    color: green;
+}
+
+.rojo {
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    text size: 14px;
+}
+
+body{
+    font-family: sans-serif;}
+
+.contenedor {
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 600px;
+}
+
+.cajaIzquierda {
+    height: 450px;
+    width: 100%;
+    display: inline-block;
+    background-image: url('../img/delivery.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: red;
+
+}
+
+.cajaIzquierda h2{
+    padding: 20px;
+    text-align: center;
+}
+
+.comprando{
+    color: white;
+}
+
+.cajaDerecha {
+    height: 450px;
+    width: 100%;
+    padding: 2rem 2rem;
+}
+
+.cajaDerecha h2{
+    font-size: 2.4rem;
+    color: red;
+    text-align: center;
+}
+
+.Podio-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    height: 100%;
+}
+
+.podio-list{
+    display: block;
+}
+
+h3{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    font-weight: bold;
+    padding-inline-start: 20px;
+}
+
+ol{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+}
+
+ol li{
+    margin: 1em;
+    display: list-item;
+}
+
+.cajaDerecha img {
+    width: 100px;
+}
+
+
+footer{
+    background-color: black;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin left: 2rem;
+    margin right: 2rem;
+    padding-inline-start:40px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: list-item;
+    padding: 8px;
+}
+
+.footer-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.footer-titulo img{
+    width: 50px;}
+
+.footer-titulo h3 {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 700;
