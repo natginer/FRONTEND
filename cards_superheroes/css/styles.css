@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  background-color: #00669f;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+height: 101px;
+left: 0px;
+top: 38px;
+box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.info {
+  background-color: #1cd1b0;
+  position: absolute;
+  width: 100%;
+  height: 38px;
+  left: 0px;
+  top: 0px;
+}
+
+h3 {
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+
+
+.contenedor{
+  width: 90%;
+  margin: 8rem auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.card, .card, .card{
+ display: block;
+  width: 300px;
+  height: 500px;
+  top: 292px;
+  border: 1px solid black;
+  border-radius: 15px 15px 0 0;
+}
+
+.banners{
+  color: red;
+  background-size: cover;
+  height: 180px;
+  padding: 10px;
+  border-radius: 15px 15px 0 0;
+}
+
+.fotoB {
+  background-image: url(../img/bg_batman.png);
+}
+
+.fotoQ {
+  background-image: url(../img/bg_quinn.png);
+}
+
+.card-text {
+  position: relative;
+  display: block;
+  padding: 15px;
+  background-color: #f3f3f3;
+  
+}
+
+.Avatar{
+  border-radius: 50%;
+  position: absolute;
+  right: 90px;
+  top: -70px;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 40px;
+  margin-block-end: 0.83em;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  text-align: start;
+}
+
+.card-button {
+background-color: #f3f3f3;
+text-align: center;
+height: 70px;
+padding-top: 10px;
+}
+
+.card-button a{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #00669f;
+  padding: 15px 37px;
+}
+
+footer{
+  background-color:#00669f ;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 51px;
+  left: 0px; 
+  top: 972px;
+  color: white;
+  text-align: center;
+}
+
