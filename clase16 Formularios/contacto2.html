@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            max-width: 340px;
+            margin: 0 auto
+        }
+        .container h2{
+            text-align: center;
+        }
+        .container form{
+            display: flex;
+            flex-direction: column;
+        }
+        .form-button{
+            display: flex;
+            justify-content: center; 
+            gap: 8px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <h2>Contactanos</h2>
+    <form action="" method="post">
+        <label for="name">Nombre y Apellido</label>
+        <input type="text" name="name" id="name" placeholder="Nombre y Apellido">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <label for="tel">Email</label>
+        <input type="tel" name="tel" id="tel" placeholder="Email">
+        <div class="form-button"> 
+            <input type="reset" value="Reset">
+            <input type="submit" value="Enviar">
+        </div>
+
+    </form>
+</div>
+</body>
+
+</html>

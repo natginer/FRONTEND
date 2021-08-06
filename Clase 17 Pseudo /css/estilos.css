@@ -1,0 +1,133 @@
+ @import "base.css";
+ @import "header.css";
+
+
+/* Main */
+section {
+    border-bottom: 1px solid rgb(71, 67, 67);
+    padding: 5%;
+}
+
+#about {
+    background-color: slateblue;
+    color: #fff;
+}
+
+.contenedor {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.login {
+    background-color: slateblue;
+    margin: 0 auto;
+    padding: 2% 4% 3%;
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: orange;
+}
+
+/* Form */
+label,
+input {
+    width: 100%;
+}
+
+input {
+    outline: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+input[type="checkbox"] {
+    width: unset;
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: slateblue;
+    border: 1px solid slateblue;
+}
+
+/*
+input[type="text"]::placeholder{
+    
+}
+*/
+/* a::before íconos fontawesome*/
+/* Con caracteres o vacío para elemento */
+/*
+nav ul li::before{
+    content:">";
+    color: coral;
+    margin-right: 10px;
+}
+nav ul li:first-child::before{
+    content:"";
+} */
+/*
+nav ul li::before{
+    content:"";
+    width: 10px;
+    height: 10px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+*/
+
+
+/* h2::first-letter */
+h2::first-letter{
+    font-size: 3rem;
+}
+
+/* input:invalid */
+input:required{
+    border: 2px solid red;
+}
+/* Desde JS */
+
+/*input[type="submit"]:hover */
+
+input[type="submit"]:hover {
+    color: #fff;
+    background-color: slateblue;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+/* Creamos nuestro propio checkbox :) */
+input[type="checkbox"]{
+    display: none;
+}
+/*
+input[type="checkbox"]:checked + label{
+    color:red;
+}*/
+input[type="checkbox"] + label{
+    padding-left: 15px;
+    position: relative;
+}
+input[type="checkbox"] + label::before{
+     content:""; 
+     width: 10px;
+     height: 10px;
+     border: 1px solid green;
+     background-color: gainsboro;
+     display: inline-block;
+     position: absolute;
+     left: 0;
+     top: 2px
+}
+input[type="checkbox"]:checked + label::before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: green;
+    font-size: 10px;
+}

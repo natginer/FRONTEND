@@ -6,18 +6,23 @@
     <title>Pet shop</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href= "css/style.css">
-</head>
+    <style> 
+          input[type="text"]{
+            background-color: brown;
+          }
+          input::placeholder{
+            color: white;
+          }
+    </style>
 </head>
 <body>
   <header>
     <div class="ofertas">
       <p>Grandes ofertas en comederos <a> Español ARG$</a> </p>
     </div>
-    <div class="contenedor-header">
-       <div class="Portada">
-         <a href="#">
-        <h1><img src="img/Cat.png" alt="Cat" /><span class="H1Negrita">Front</span> Cat&Dog <img src="img/Dog.png" alt="Dog" />
-        </a></h1>
+    <div class="Portada">
+        <a href="#">
+        <h1><img src="img/Cat.png" alt="Cat" /><span class="H1Negrita">Front</span> Cat&Dog <img src="img/Dog.png" alt="Dog" /> </a></h1>
         <nav>
           <ul>
             <li><a href=""><i class="fas fa-paw"></i> Categoria</a></li>
@@ -26,7 +31,6 @@
             <li><a href=""><i class="fas fa-paw"></i> Contactanos</a></li>
           </ul>
         </nav>
-      </div>
     </div>
   </header>
   <main>
@@ -62,6 +66,21 @@
         <p>$650</p>
       </div>
     </div>
+    </section>
+    <section class="formulario">
+        <h3>Contáctanos</h3>
+        <form action=""  method="POST">
+            <label for="name"></label>
+            <input type="text" name="Nombre y apellido" id="name" placeholder="Nombre y apellido">
+            <label for="email"></label>
+            <input type="text" name="Email" id="email" placeholder="Ingrese su email">
+            <label for="tel"></label>
+            <input type="text" name="Teléfono" id="tel" placeholder="Ingrese su teléfono">
+        <div class="botones">
+          <input class="reset" type="reset" value="Resetear"></input>
+          <input></input>
+        </div>
+    </form>
     </section>
     <section class="redes">
         <ul>

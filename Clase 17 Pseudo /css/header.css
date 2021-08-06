@@ -1,0 +1,11 @@
+header {
+    background-color: slateblue;
+    padding: 20px;
+}
+nav ul li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f061";
+    color: #fff;
+    margin-right: 5px; 
+}

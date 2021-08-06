@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoselectores</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="ul-nav">
+                <!--  ::before para poner viñetas-->
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#formulario">Form</a></li>
+                <li><a href="#blog">Blog</a></li>     
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id=formulario>
+            <div class="contenedor login">
+                <h2>Formulario</h2>
+                <form action="#">
+                    <!--Pseudoclases de input :focus  -->
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required></label>
+                    <!--Pseudoclases de input :invalid-->
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <!--Pseudoclases de input :checked -->
+                    <input type="checkbox" id="condiciones">
+                    <label for="condiciones" class="label-check">Acepto términos
+                        y condiciones</label>
+                    <!--Pseudoclases de input:hover --> 
+                    <input type="submit" value="Enviar">
+                    <!--  <p class="exito">Se envió éxito</p>
+                  <button type="submit"  >Enviar<i class="fas fa-paper-plane"></i></button>-->
+                </form>
+
+            </div>
+        </section>
+        <section id="about">
+            <div class="contenedor">
+                <!--::first-letter -->
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima optio assumenda corrupti
+                    laboriosam
+                    itaque quis, ex culpa laborum odit deleniti reiciendis excepturi illo. Dicta . Perferendis minima
+                    non quidem?</p>
+
+            </div>
+        </section>
+
+    </main>
+    <footer></footer>
+</body>
+
+</html>
