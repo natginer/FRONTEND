@@ -88,7 +88,6 @@ nav ul li a{
     display: block;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
     background-size: cover;
 }
 
@@ -107,31 +106,12 @@ nav ul li a{
 }
 
 
-
-
 ul li {
     text-decoration: none;
     display: inline;
   padding: 10px;
 }
 
-
-#redes {
-    height: 300px;
-    background-color: rgb(61, 36, 36);
-}
-
-#redes ul li a{
-    display: block;
-}
-
-footer {
-    background-color: black;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    text-size-adjust: auto;
-}
 
 .main-contenedor {
     display: flex;
@@ -159,9 +139,71 @@ input {
     margin: 10px;
     padding: 10px;
     border-radius: 15px;
-    width: 40rem;
+    width: 30rem;
 }
 
 .botones {
-    display: block;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
 }
+
+.submit {
+    background-color: orange;
+}
+
+.redes {
+    background-color: rgb(61, 36, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+
+.redes ul li a{
+    display: block;
+    padding: 10px;
+}
+
+
+.info{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desliza {
+    display: flex;
+    width: 20rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.envio {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.envio > input{
+    width: 15rem;
+} 
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    text-size-adjust: auto;
+}
+
+@media screen and (max-width: 768px){
+    .main-contenedor{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
